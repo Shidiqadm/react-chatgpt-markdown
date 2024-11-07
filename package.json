@@ -1,0 +1,40 @@
+{
+  "name": "react-chatgpt-markdown",
+  "version": "1.0.3",
+  "description": "A React component that renders Markdown content with support for tables, code snippets, and JSON formatting, styled similar to the ChatGPT interface.",
+  "main": "dist/MarkdownRenderer.js",
+  "module": "dist/MarkdownRenderer.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "react",
+    "markdown",
+    "chatgpt",
+    "renderer",
+    "syntax-highlighting",
+    "tables",
+    "code-snippets",
+    "json",
+    "chat-interface"
+  ],
+  "author": "shidiqahmed",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.6.1",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9"
+  }
+}
